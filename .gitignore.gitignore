@@ -1,0 +1,15 @@
+# Model weights (host on GitHub Releases or Drive, the file is over 100 MB)
+*.keras
+*.h5
+
+# Dataset and run outputs contain real receipts and large files
+DATASET/
+DATASET_STANDARDIZED/
+DATASET_SPLIT/
+OUTPUTS*/
+
+# Python and notebook noise
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.DS_Store
